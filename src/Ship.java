@@ -1,8 +1,3 @@
-//Name: Chau Tran
-//Penn ID: 58664366
-//Statement of work:
-//-Resources: lecture notes and videos from module 9,10,11 on Coursera
-//-I worked alone without help
 
 package battleship;
 
@@ -178,7 +173,7 @@ public abstract class Ship {
 	}
 
 	/**
-	 * ìPutsî the ship in the ocean. This involves giving values to the bowRow,
+	 * ‚ÄúPuts‚Äù the ship in the ocean. This involves giving values to the bowRow,
 	 * bowColumn, and horizontal instance variables in the ship, and it also
 	 * involves putting a reference to the ship in each of 1 or more locations (up
 	 * to 4) in the ships array in the Ocean object. horizontal: east, vertical
@@ -223,8 +218,8 @@ public abstract class Ship {
 	}
 
 	/**
-	 * If a part of the ship occupies the given row and column, and the ship hasnít
-	 * been sunk, mark that part of the ship as ìhitî (in the hit array, index 0
+	 * If a part of the ship occupies the given row and column, and the ship hasn‚Äôt
+	 * been sunk, mark that part of the ship as ‚Äúhit‚Äù (in the hit array, index 0
 	 * indicates the bow) and return true; otherwise return false.
 	 * 
 	 * @param row
@@ -281,8 +276,8 @@ public abstract class Ship {
 	}
 
 	/**
-	 * Returns a single-character String to use in the Oceanís print method. This
-	 * method should return îsî if the ship has been sunk and îxî if it has not been
+	 * Returns a single-character String to use in the Ocean‚Äôs print method. This
+	 * method should return ‚Äùs‚Äù if the ship has been sunk and ‚Äùx‚Äù if it has not been
 	 * sunk. This method can be used to print out locations in the ocean that have
 	 * been shot at;
 	 */
