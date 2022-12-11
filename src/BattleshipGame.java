@@ -1,15 +1,9 @@
-//Name: Chau Tran
-//Penn ID: 58664366
-//Statement of work:
-//-Resources: lecture notes and videos from module 9,10,11 on Coursera
-//-I worked alone without help
-
 package battleship;
 
 import java.util.Scanner;
 
 /**
- * This class contains the main method. It will set up the game; accept îshotsî
+ * This class contains the main method. It will set up the game; accept ‚Äùshots‚Äù
  * from the user; display the results; and print final scores. All input/output
  * is done here. All computation will be done in the Ocean class and the various
  * Ship classes.
