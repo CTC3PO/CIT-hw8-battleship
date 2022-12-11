@@ -1,8 +1,3 @@
-//Name: Chau Tran
-//Penn ID: 58664366
-//Statement of work:
-//-Resources: lecture notes and videos from module 9,10,11 on Coursera
-//-I worked alone without help
 
 package battleship;
 
@@ -23,7 +18,7 @@ public class Ocean {
 
 	// The number of times a shot hit a ship. If the user shoots the same part of a
 	// ship
-	// more than once, every hit is counted, even though additional ìhitsî donít do
+	// more than once, every hit is counted, even though additional ‚Äúhits‚Äù don‚Äôt do
 	// the
 	// user any good.
 	private int hitCount;
@@ -40,7 +35,7 @@ public class Ocean {
 	// Constructor
 
 	/**
-	 * Creates an îemptyî ocean (and fills the ships array with EmptySea objects).
+	 * Creates an ‚Äùempty‚Äù ocean (and fills the ships array with EmptySea objects).
 	 * uses a private helper method to do this. also initializes any game variables
 	 * (shots have been fired, etc.)
 	 */
@@ -231,11 +226,11 @@ public class Ocean {
 	}
 
 	/**
-	 * Returns true if the given location contains a îrealî ship, still afloat, (not
+	 * Returns true if the given location contains a ‚Äùreal‚Äù ship, still afloat, (not
 	 * an EmptySea), false if it does not. In addition, this method updates the
 	 * number of shots that have been fired, and the number of hits. Note: If a
-	 * location contains a ìrealî ship, shootAt should return true every time the
-	 * user shoots at that same location. Once a ship has been îsunkî, additional
+	 * location contains a ‚Äúreal‚Äù ship, shootAt should return true every time the
+	 * user shoots at that same location. Once a ship has been ‚Äùsunk‚Äù, additional
 	 * shots at its location should return false.
 	 * 
 	 * @param row
@@ -354,9 +349,9 @@ public class Ocean {
 	}
 
 	/**
-	 * Prints the Ocean. ëxí to indicate a location that you have fired upon and hit
-	 * a (real) ship. ë-í to indicate a location that you have fired upon and found
-	 * nothing there.ësí to indicate a location containing a sunken ship. ë.í (a
+	 * Prints the Ocean. ‚Äòx‚Äô to indicate a location that you have fired upon and hit
+	 * a (real) ship. ‚Äò-‚Äô to indicate a location that you have fired upon and found
+	 * nothing there.‚Äòs‚Äô to indicate a location containing a sunken ship. ‚Äò.‚Äô (a
 	 * period) to indicate a location that you have never fired upon. This methods
 	 * is only called from the BattleshipGame class.
 	 */
@@ -388,9 +383,9 @@ public class Ocean {
 	/**
 	 * Used for debugging only this method prints the Ocean. This method can be used
 	 * during development and debugging, to see where ships are actually being
-	 * placed in the Ocean. Use ë bí to indicate a Battleship. Use ëcí to indicate a
-	 * Cruiser. Use ëd í to indicate a Destroyer. Use ë s í to indicate a Submarine.
-	 * Use ë í (single space) to indicate an EmptySea.
+	 * placed in the Ocean. Use ‚Äò b‚Äô to indicate a Battleship. Use ‚Äòc‚Äô to indicate a
+	 * Cruiser. Use ‚Äòd ‚Äô to indicate a Destroyer. Use ‚Äò s ‚Äô to indicate a Submarine.
+	 * Use ‚Äò ‚Äô (single space) to indicate an EmptySea.
 	 */
 
 	// still needs to make the 9x9 grid for user's reference
