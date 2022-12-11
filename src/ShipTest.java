@@ -1,9 +1,3 @@
-//Name: Chau Tran
-//Penn ID: 58664366
-//Statement of work:
-//-Resources: lecture notes and videos from module 9,10,11 on Coursera
-//-I worked alone without help
-
 package battleship;
 
 import static org.junit.jupiter.api.Assertions.*;
