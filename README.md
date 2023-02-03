@@ -1,1 +1,1 @@
-Homework 8 - battleship game using Java
+Homework - battleship game / console game, language: Java
